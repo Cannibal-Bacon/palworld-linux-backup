@@ -1,0 +1,1 @@
+Backs up world files from dedicated server. Also suggest pulling the GameuserSettings.ini, which is a static file unless you change worlds, so it does not require regular backups, but will create a new world directory if it is accidentally removed.
