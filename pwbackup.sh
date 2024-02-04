@@ -4,11 +4,11 @@
 cd /home/deck/backups/pw/
 
 ## Add Username, Password, and Host here.
-USERNAME=username
-PASSWORD=password
-HOST=127.0.0.1
+USERNAME=<username goes here>
+PASSWORD=<password goes here>
+HOST=<host ip goes here>
 
-## number after --cut-dirs= can be changed depending on depth of filesystem you wish to copy
+## Edit below this line at your own risk
 wget -m -nH --cut-dirs=5 ftp://$USERNAME:$PASSWORD@$HOST/server-data/Pal/Saved/SaveGames/0/
 
 exit
