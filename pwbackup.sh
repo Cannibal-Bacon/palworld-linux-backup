@@ -1,4 +1,4 @@
-#!:bin:bash
+#!/bin/bash
 
 ## cd /DIRECTORY/TO/SAVE/BACKUP/IN
 cd /home/deck/backups/pw/
